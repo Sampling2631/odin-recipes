@@ -83,6 +83,7 @@ a {
         color: #6c71c4;
     }
 
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #002b36;
@@ -99,6 +100,7 @@ a {
     }
 }
 
+/* Responsive design */
 @media (max-width: 768px) {
     aside,
     section {
