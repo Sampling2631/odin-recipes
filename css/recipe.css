@@ -1,5 +1,3 @@
-/* The website uses the solarized color palette */
-
 * {
     box-sizing: border-box;
 }
@@ -10,8 +8,8 @@ body {
     min-height: 100vh;
     min-height: 100svh;
     width: 100vw;
-    background-color: #fdf6e3;
-    color: #657b83;
+    background-color: #eee;
+    color: #123;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -40,7 +38,7 @@ main {
 aside {
     padding-inline: 5ch;
     width: 40%;
-    background-color: #eee8d5;
+    background-color: #ddd;
 }
 
 section {
@@ -56,7 +54,6 @@ figure {
 h1,
 h2 {
     text-align: center;
-    color: #586e75;
 }
 
 p,
@@ -70,33 +67,35 @@ img {
     height: auto;
 }
 
-a {
-    text-decoration: none;
+a:link {
+    color: #00f;
 }
-    a:link {
-        color: #268bd2;
-    }
-    a:visited {
-        color: #d33682;
-    }
-    a:hover {
-        color: #6c71c4;
-    }
+a:visited {
+    color: #907;
+}
+a:hover {
+    color: #900;
+}
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #002b36;
-        color: #839496;
+        background-color: #123;
+        color: #eee;
     }
 
     aside {
-        background-color: #073642;
+        background-color: #234;
     }
 
-    h1,
-    h2 {
-        color: #93a1a1;
+    a:link {
+        color: #0bf;
+    }
+    a:visited {
+        color: #f3f;
+    }
+    a:hover {
+        color: #ef0;
     }
 }
 
