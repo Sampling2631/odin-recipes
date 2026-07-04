@@ -1,108 +1,108 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: auto;
-    max-width: 120ch;
-    min-height: 100vh;
-    min-height: 100svh;
-    width: 100vw;
-    background-color: #eee;
-    color: #123;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: Roboto, sans-serif;
+  margin: auto;
+  max-width: 120ch;
+  min-height: 100vh;
+  min-height: 100svh;
+  width: 100vw;
+  background-color: #eee;
+  color: #123;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
 }
 
 header,
 footer {
-    border-style: solid;
-    border-width: 8px;
-    padding-inline: 30px;
-    width: 100%;
+  border-style: solid;
+  border-width: 8px;
+  padding-inline: 30px;
+  width: 100%;
 }
 
 footer {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 aside {
-    padding-inline: 5ch;
-    width: 40%;
-    background-color: #ddd;
+  padding-inline: 5ch;
+  width: 40%;
+  background-color: #ddd;
 }
 
 section {
-    text-align: left;
-    width: 60%;
-    padding-inline: 5ch;
+  text-align: left;
+  width: 60%;
+  padding-inline: 5ch;
 }
 
 figure {
-    text-align: center;
+  text-align: center;
 }
 
 h1,
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 p,
 li {
-    font-size: 18px;
-    line-height: 27px;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 img {
-    width: 50%;
-    height: auto;
+  width: 50%;
+  height: auto;
 }
 
 a:link {
-    color: #00f;
+  color: #00f;
 }
 a:visited {
-    color: #907;
+  color: #907;
 }
 a:hover {
-    color: #900;
+  color: #900;
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #123;
-        color: #eee;
-    }
+  body {
+    background-color: #123;
+    color: #eee;
+  }
 
-    aside {
-        background-color: #234;
-    }
+  aside {
+    background-color: #234;
+  }
 
-    a:link {
-        color: #0bf;
-    }
-    a:visited {
-        color: #f3f;
-    }
-    a:hover {
-        color: #ef0;
-    }
+  a:link {
+    color: #0bf;
+  }
+  a:visited {
+    color: #f3f;
+  }
+  a:hover {
+    color: #ef0;
+  }
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
-    aside,
-    section {
-        width: 100%;
-    }
+  aside,
+  section {
+    width: 100%;
+  }
 }
